@@ -42,7 +42,7 @@ before_script:
     # Install Codeception and WP Browser.
     # Doing this last gives the webdriver and server time to start up.
     - composer install --prefer-source
-    - curl http://127.0.0.1:888 
+    - curl http://127.0.0.1:8888 
 
 script:
     - vendor/bin/wpcept run
